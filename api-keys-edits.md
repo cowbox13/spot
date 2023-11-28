@@ -31,9 +31,11 @@ Create a new API key, which creates the personal access credentials required for
 
 ## Managing your API keys
 
-View the list of active API keys currently being active at [https://<your-cluster-url>/dashboard/api-keys/](https://<your-cluster-url>/dashboard/api-keys/).
+View the list of active API keys at [https://<your-cluster-url>/dashboard/api-keys/](https://<your-cluster-url>/dashboard/api-keys/).
 
 ![](api-key-list.png)
+
+### Find your keys
 
 You can locate your keys either by the key's **Name** or by **Key prefix**, which contains first characters of key.
 
@@ -48,7 +50,7 @@ In the **Actions** column, you can click **Revoke** to revoke an API key.
 > Revoking a key is final so make sure it's not used in the scheduler or by one of your RI systems.
 
 
-# Prepare the Science Metastore
+# Prepare the Data Science Metastore
 
 One way to ensure connectivity is to create inbound rule for TCP on port 9472 and to ensure the database is publicly accessible. 
 On AWS, you have several choices, one of which is RDS. RDS allows you to create managed services for Aurora, MariaDB, PostgreSQL,
