@@ -26,7 +26,7 @@ Create a new API key, which creates the personal access credentials required for
     <li>It is recommended to rotate your API keys frequently to increase security.</li>
     </ul>
 
-Result: You have now created your API key. To access Data Science API, set the Y-Api-Key request header value to your API key. 
+Result: You have now created your API key. To access the Data Science API, set the Y-Api-Key request header value to your API key. 
 
 
 ## Managing your API keys
