@@ -51,7 +51,10 @@ In the **Actions** column, you can click **Revoke** to revoke an API key.
 # Prepare the Science Metastore
 
 One way to ensure connectivity is to create inbound rule for TCP on port 9472 and to ensure the database is publicly accessible. 
-On AWS, you have several choices, one of which is RDS. RDS allows you to create Managed Services for Aurora, MariaDB, PostgreSQL, 0racle, Microsoft SQL Server. 
-This step prepares the Science metastore used to create the Science-schema. You need to retrieve following two sql scripts:
+On AWS, you have several choices, one of which is RDS. RDS allows you to create managed services for Aurora, MariaDB, PostgreSQL,
+0racle, Microsoft SQL Server.
+
+
+This step prepares the Data Science metastore, which is used to create the Science-schema. You need to retrieve following two sql scripts:
 
 
