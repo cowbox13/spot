@@ -3,8 +3,6 @@ Set up your access with the Data Science API.
 
 To interact with the Data Science API, you need to use API key to identify yourself.
 
-
-
 ## Create API Keys
 
 Create a new API key, which creates the personal access credentials required for the Data Mechanics API.
