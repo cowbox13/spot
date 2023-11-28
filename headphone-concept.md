@@ -26,7 +26,7 @@ These include:
   
 * USB port and cable - Connect your headphones to the devices such as a radio, cell phone, or other devices.
 
-* Bluetooth connector - Connect your headphone to another bluetooth-capable device without using a cable.
+* Bluetooth connector - Connect your headphone to another Bluetooth-capable device without using a cable.
 
 ## Powering your headphones
 
