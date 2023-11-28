@@ -1,11 +1,11 @@
 # Headphones
 
-Technology is entering our daily lives, whether it's in the form of radios, televisions, cell phones, or even computers.
+Technology is entering our daily lives in the form of radios, televisions, cell phones, or even computers.
 
 With headphones, you can discreetly access the audio from new technology, or cancel out the noise that prevent you
 from focusing on important tasks.
 
-## About your headphones
+## About headphones
 
 Headphones are a device you wear on or around your head to listen to sounds like music or to block out outside noise.
 They consist of two major parts:
