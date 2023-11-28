@@ -9,7 +9,7 @@ To interact with the Data Science API, you need to use API key to identify yours
 
 Create a new API key, which creates the personal access credentials required for the Data Mechanics API.
 
-1. To create your first API key, go to [API Keys/new](https://<your-cluster-url>/dashboard/api-keys/new).
+1. To create your first API key, go to [API Keys/new](https://<your-cluster-url>/dashboard/api-keys/new).  
     ![](api-key-image.png)
    
 1. Enter a unique **Key name** that will allow you to differentiate from other keys. 
@@ -26,7 +26,7 @@ Create a new API key, which creates the personal access credentials required for
     <li>It is recommended to rotate your API keys frequently to increase security.</li>
     </ul>
 
-Result: You have now created your API key. To access the Data Science API, set the Y-Api-Key request header value to your API key. 
+**Result:** You have now created your API key. To access the Data Science API, set the Y-Api-Key request header value to your API key. 
 
 
 ## Managing your API keys
