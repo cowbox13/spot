@@ -1,9 +1,9 @@
 # API keys
-This page is supposed to help you    setup your access to the Data Science API
-In order to interact with the Data Science API, you'll need to  use API Key to identify yourself.
+Set up your access with the Data Science API.
+
+To interact with the Data Science API, you need to use API key to identify yourself.
 
 
-Simply set the Y-Api-Key request header value  to your api key to start using API.
 
 ## Create API Keys
 
@@ -22,10 +22,36 @@ Create a new API key, which creates the personal access credentials required for
     <ul>
     <li>Do not share your API key.</li>
     <li>Do not commit your API key to a public Github repository.</li>
-    <li>If your API key is compromised, revoke it and create a new one.</li>
+    <li>If your API key is compromised, [revoke it](#revoke-a-key) and create a new one.</li>
     <li>It is recommended to rotate your API keys frequently to increase security.</li>
     </ul>
 
-## 
+Result: You have now created your API key. To access Data Science API, set the Y-Api-Key request header value to your API key. 
+
+
+## Managing your API keys
+
+View the list of active API keys currently being active at [https://<your-cluster-url>/dashboard/api-keys/](https://<your-cluster-url>/dashboard/api-keys/).
+
+![](api-key-list.png)
+
+You can locate your keys either by the key's **Name** or by **Key prefix**, which contains first characters of key.
+
+### Identify unused keys 
+
+Identify unused keys, by viewing the **Last used** column, which indicated when was last time that key was last used to access the Data Science API.
+
+### Revoke a key
+
+In the **Actions** column, you can click **Revoke** to revoke an API key.
+
+> Revoking a key is final so make sure it's not used in the scheduler or by one of your RI systems.
+
+
+# Prepare the Science Metastore
+
+One way to ensure connectivity is to create inbound rule for TCP on port 9472 and to ensure the database is publicly accessible. 
+On AWS, you have several choices, one of which is RDS. RDS allows you to create Managed Services for Aurora, MariaDB, PostgreSQL, 0racle, Microsoft SQL Server. 
+This step prepares the Science metastore used to create the Science-schema. You need to retrieve following two sql scripts:
 
 
